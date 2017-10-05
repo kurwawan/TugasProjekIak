@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.pm2aplikasipesan.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inputkan pesanan anda"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_pesanan"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input pesanan"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:onClick="showMessage"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tampilkan pesanan"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_pesanan"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Pesanan"/>
+
+    <EditText
+        android:id="@+id/et_telfon"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input no telp."
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:onClick="callPhone"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="panggil telephon"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
+
+</LinearLayout>
